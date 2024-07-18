@@ -1,0 +1,52 @@
+.color-info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-info-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.color-meaning {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.color-sample {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 0.1rem ridge black;
+  border-radius: 0.3rem;
+}
+
+.correct {
+  background-color: lime;
+}
+
+.incorrect-position {
+  background-color: yellow;
+}
+
+.incorrect {
+  background-color: rgb(136, 136, 136);
+}
+
+.close-button {
+  margin-top: 20px;
+  padding: 0 2rem;
+  width: max-content;
+  height: 2rem;
+  cursor: pointer;
+}

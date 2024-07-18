@@ -1,0 +1,22 @@
+.word-placeholder {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.letter-placeholder {
+  width: 3rem;
+  height: 3rem;
+  border: 0.2rem ridge black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 1375px) {
+  .letter-placeholder {
+    width: 2rem;
+    height: 2rem;
+  }
+}
